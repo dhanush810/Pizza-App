@@ -32,7 +32,7 @@ function Order() {
             description: pizza.description,
             ingredients: pizza.ingredients,
             topping : pizza.topping,
-            quantity : pizza.quantity
+            quantity : 1
         }
 
         try{
@@ -57,7 +57,7 @@ function Order() {
                                     <div className="fs-4 fw-bold">{pizza.name}</div>
                                     {pizza.type === "veg" ? (<p className="fs-4">🟩</p>) :
                                         (<p className="fs-4">🟥</p>)}
-                                    <p className="fw-bold mt-4 fs-5">${pizza.price}</p>
+                                    <p className="fw-bold mt-4 fs-5">&#8377;{pizza.price}</p>
                                 </div>
                                 <div className="col-6 mt-2">
                                     <p>{pizza.description}</p>

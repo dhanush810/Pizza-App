@@ -42,12 +42,12 @@ function BuildPizze() {
                     {ingredients.map((ingredient) => (
                         <tr key={ingredient._id}>
                             <td><img src={ingredient.image} height={"50px"} width={"50px"} /></td>
-                            <td className="fw-bold">{ingredient.tname}  ${ingredient.price}</td>
+                            <td className="fw-bold">{ingredient.tname}  &#8377;{ingredient.price}</td>
                             <td><input className="form-check-input border border-warning" type="checkbox" id="flexCheckDefault" onChange={AddPrice} value={ingredient.price} /><span className="ms-4 fs-5 text-warning">Add</span></td>
                         </tr>
                     ))}
                 </tbody>
-                <p className="fs-4 fw-bold ms-2 mt-3" style={{color:"darkblue"}}>Total Cost: {price}</p>
+                <p className="fs-4 fw-bold ms-2 mt-3" style={{color:"darkblue"}}>Total Cost: &#8377;{price}</p>
             </table>
         </div>
     )

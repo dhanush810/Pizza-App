@@ -7,7 +7,6 @@ import cart from './routes/cart.js'
 connectDB(); 
 
 const app = express();
-
 app.use(cors());
 app.use(express.json());
 
