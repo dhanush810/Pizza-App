@@ -13,7 +13,7 @@ function Home() {
                 <div className="row">
                     <div className="col-6 d-flex justify-content-center align-items-center">
                         <div className="">
-                            <img src="src\assets\vegetables.jpg" height={"300px"} width={"500px"} />
+                            <img src="src\assets\ingredients.jpg" height={"300px"} width={"500px"} />
                         </div>
                     </div>
                     <div className="col-6 d-flex justify-content-center align-items-center">
@@ -35,7 +35,7 @@ function Home() {
                     </div>
                     <div className="col-6 d-flex justify-content-center align-items-center">
                         <div className="fs-5">
-                            <img src="src\assets\chef.jpg" height={"300px"} width={"500px"} />
+                            <img src="src\assets\chefs.jpg" height={"300px"} width={"500px"} />
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ function Home() {
                 <div className="row">
                     <div className="col-6">
                         <div className="fs-5">
-                            <img src="src\assets\Timer.png" height={"300px"} width={"500px"} />
+                            <img src="src\assets\timer.jpg" height={"300px"} width={"400px"} />
                         </div>
                     </div>
                     <div className="col-6 d-flex justify-content-center align-items-center">
